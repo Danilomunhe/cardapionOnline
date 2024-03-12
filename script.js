@@ -179,7 +179,7 @@ checkoutBtn.addEventListener("click", function () {
     })
     .join("");
   const message = encodeURIComponent(carItems);
-  const phone = "11953175308";
+  const phone = "5511953175308";
   window.open(
     `https://wa.me/${phone}?text=${message} Total do pedido:R$ ${totalPedido.toFixed(
       2
