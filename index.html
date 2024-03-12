@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -31,7 +32,7 @@
     <div class="" id="menu">
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
-            <div class="flex gap-2">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/hamb-1.png" alt="smash burger"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="">
@@ -47,15 +48,14 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/hamb-2.png" alt="Duplo burger"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="">
                     <p class="font-bold">Hambuerger Duplo</p>
                     <p class="text-sm">
-                        Desfrute do Duplo Burger Trigou, com dois suculentos discos de 160g de carne, pão leve de
-                        fermentação natural, queijo prato derretido e maionese da casa. Uma explosão de sabores em cada
-                        mordida.</p>
+                        Pão levinho, com dois suculentos discos de 160g de carne, queijo prato derretido e maionese da
+                        casa. </p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 32.90</p>
@@ -65,15 +65,13 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/hamb-3.png" alt="salad burger"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="">
                     <p class="font-bold">Hambuerger Salad</p>
-                    <p class="text-sm">Aprecie o Burger Salad da Trigou, com uma fusão refrescante de ingredientes.
-                        Delicie-se com um disco de 160g de carne suculenta, envolto por folhas frescas, tomate
-                        suculento, cebola crocante, queijo prato derretido e um toque final de maionese da casa. Uma
-                        experiência leve e vibrante em cada garfada.</p>
+                    <p class="text-sm">Pão levinho com um disco de 160g de carne suculenta, alface, tomate, cebola,
+                        queijo e maionese da casa.</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 35.90</p>
@@ -83,17 +81,17 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/hamb-4.png" alt="House burger"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="">
                     <p class="font-bold">Hambuerger Da Casa</p>
-                    <p class="text-sm">Desfrute da exclusividade do Burger da Casa Especial da Trigou, apresentando um
-                        disco suculento de 160g de carne, pão artesanal de fermentação natural, queijo especial
-                        derretido e uma combinação única de ingredientes selecionados.</p>
+                    <p class="text-sm"> Pão levinho,
+                        com um disco suculento de 160g de frango empanado, queijo especial
+                        derretido.</p>
 
-                    <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 30</p>
+                    <div class="flex items-center gap-2 justify-between mt-3 ">
+                        <p class="font-bold text-lg">R$ 30.00</p>
                         <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hambuerger Da Casa"
                             data-price="30">
                             <i class="fa fa-cart-plus text-lg text-white"></i></button>
@@ -105,7 +103,7 @@
             <h2 class="font-bold text-3xl">Bebidas</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/refri-1.png" alt="Coca Cola lata"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="w-full">
@@ -113,13 +111,13 @@
 
 
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 6</p>
+                        <p class="font-bold text-lg">R$ 6.00</p>
                         <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Coca Cola" data-price="6">
                             <i class="fa fa-cart-plus text-lg text-white"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="flex gap-2 w-full">
+            <div class="flex gap-2 min-h-[200px] items-center">
                 <img src="./assets/refri-2.png" alt="Guaraná"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
                 <div class="w-full">
@@ -127,7 +125,7 @@
 
 
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 6</p>
+                        <p class="font-bold text-lg">R$ 6.00</p>
                         <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guaraná" data-price="6">
                             <i class="fa fa-cart-plus text-lg text-white"></i></button>
                     </div>
@@ -135,11 +133,14 @@
             </div>
         </div>
     </div>
-    <div class="bg-black/50 w-full h-full fixed  top-0 left-0 z-[99]  items-center justify-center hidden">
+    <div class="bg-black/50 w-full h-full fixed  top-0 left-0 z-[99]  items-center justify-center hidden"
+        id="cart-modal">
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-2xl mb-2">Seu carrinho</h2>
-            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
-            <p class="font-bold">Total<span id="cart-total">0.00</span></p>
+            <div id="cart-items"
+                class="flex justify-between mb-2 flex-col overflow-y-auto max-h-[300px]  2xl:max-h-[400px] scrollbar-thin scrollbar-thumb-red-500 scrollbar-track-transparent">
+            </div>
+            <p class="font-bold">Total <span id="cart-total">0.00</span></p>
             <p class="font-bold mt-4">Endereço de Entrega:</p>
             <input type="text" placeholder="Digite seu endereço completo" id="adress"
                 class="w-full border-2 p-1 rounded my-1" />
@@ -157,6 +158,8 @@
             <i class="fa fa-cart-plus text-lg text-white"></i>
         </button>
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

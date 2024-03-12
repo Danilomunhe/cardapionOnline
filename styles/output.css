@@ -748,6 +748,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -885,6 +889,14 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
+.min-h-\[200px\] {
+  min-height: 200px;
 }
 
 .w-28 {
@@ -1901,6 +1913,11 @@ video {
   border-style: none;
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -2093,6 +2110,10 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-left {
@@ -2614,6 +2635,23 @@ body {
   background-color: #f6f7f8;
 }
 
+#cart-items::-webkit-scrollbar {
+  width: 5px;
+  /* Ajuste a largura da barra conforme necessário */
+}
+
+#cart-items::-webkit-scrollbar-thumb {
+  background-color: red;
+  /* Cor da barra de rolagem */
+  border-radius: 10px;
+  /* Borda arredondada da barra de rolagem */
+}
+
+#cart-items::-webkit-scrollbar-track {
+  background-color: transparent;
+  /* Cor de fundo da área da barra de rolagem */
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2705,6 +2743,12 @@ body {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:max-h-\[400px\] {
+    max-height: 400px;
   }
 }
 
