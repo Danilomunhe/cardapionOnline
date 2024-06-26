@@ -175,13 +175,13 @@ checkoutBtn.addEventListener("click", function () {
   const carItems = cart
     .map((item) => {
       totalPedido += item.price * item.quantity;
-      return `${item.name} Quantidade: (${item.quantity}) Preço: R$ ${item.price} \n`;
+      return `${item.name} \n*Quantidade:* (${item.quantity}) \nPreço: R$ ${item.price} \n`;
     })
     .join("");
   const message = encodeURIComponent(carItems);
   const phone = "5511953175308";
   window.open(
-    `https://wa.me/${phone}?text=${message} \n Total do pedido:R$ ${totalPedido.toFixed(
+    `https://wa.me/${phone}?text=${message}\n Total do pedido:R$ ${totalPedido.toFixed(
       2
     )} \n Endereço:${adressInput.value}`,
     "_blank"
